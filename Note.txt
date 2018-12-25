@@ -32,7 +32,7 @@ C:\react\egghead-storybook2>npm install --save-dev @storybook/addon-info
 C:\react\egghead-storybook2>npm install --save-dev @storybook/addon-knobs
 
 C:\react\egghead-storybook2>npm install --save-dev @types/react typescript awesome-typescript-loader
-
+C:\react\egghead-storybook2>npm install --save-dev react-docgen-typescript-webpack-plugin
 
 
 
