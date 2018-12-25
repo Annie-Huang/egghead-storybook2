@@ -7,6 +7,7 @@ https://github.com/storybooks/storybook/tree/release/4.1/addons
 https://github.com/storybooks/storybook/tree/release/4.1/addons/info
 https://github.com/storybooks/storybook/issues/3771
 https://github.com/storybooks/storybook/tree/release/4.1-merged/addons/knobs
+https://storybook.js.org/configurations/typescript-config/
 
 
 Because I start from the branch of master, which already has the below infomration. If you start from the beginning, do the following:
@@ -30,7 +31,7 @@ C:\react\egghead-storybook2>npm install --save-dev @storybook/addon-info
 
 C:\react\egghead-storybook2>npm install --save-dev @storybook/addon-knobs
 
-
+C:\react\egghead-storybook2>npm install --save-dev @types/react typescript awesome-typescript-loader
 
 
 
