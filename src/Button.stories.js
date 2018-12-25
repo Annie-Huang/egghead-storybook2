@@ -4,6 +4,7 @@ import {withInfo} from '@storybook/addon-info';
 import {wInfo} from './utils'
 import {storiesOf} from '@storybook/react';
 import {Button} from './Button';
+import {text, color} from '@storybook/addon-knobs/react';
 
 
 // info: text: only show test if it is place under the stories leve, not in the addWithJSX level.
@@ -68,5 +69,8 @@ storiesOf('Button', module)
         // }
     )
     .addWithJSX('with background 2', () => (
-        <Button bg="green">Hello world</Button>
+        <Button bg={text('bg', 'green')}>Hello world</Button>
+    ))
+    .addWithJSX('with background 3', () => (
+        <Button bg={color('bg', 'green', 'group1')}>Hello world</Button>
     ));
