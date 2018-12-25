@@ -1,0 +1,39 @@
+https://www.designsystems.com/
+https://github.com/sw-yx/egghead-storybook2
+https://github.com/Annie-Huang/egghead-storybook2
+
+Because I start from the branch of master, which already has the below infomration. If you start from the beginning, do the following:
+C:\react\egghead-storybook2>yarn init -y
+C:\react\egghead-storybook2>yarn add -D @storybook/react babel-core
+C:\react\egghead-storybook2>yarn add react react-dom
+C:\react\egghead-storybook2>mkdir .storybook src
+C:\react\egghead-storybook2>touch .storybook/config.js
+
+----------
+
+
+C:\react\egghead-storybook2>npm run storybook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
